@@ -12,10 +12,10 @@
   "dependencies": {
     "@faker-js/faker": "^9.5.1",
     "dotenv": "^16.4.7",
-    "newman": "^6.2.1",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "dotenv-cli": "^8.0.0"
+    "dotenv-cli": "^8.0.0",
+    "newman": "^6.2.1"
   }
 }
