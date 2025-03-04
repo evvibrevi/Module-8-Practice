@@ -63,7 +63,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://api.trello.com/1/boards/?key={{key}}&token={{token}}",
+					"raw": "https://api.trello.com/1/boards/?key={{TRELLO_KEY}}&token={{TRELLO_TOKEN}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -78,11 +78,11 @@
 					"query": [
 						{
 							"key": "key",
-							"value": "{{key}}"
+							"value": "{{TRELLO_KEY}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
+							"value": "{{TRELLO_TOKEN}}"
 						}
 					]
 				}
@@ -118,7 +118,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/{{boardId}}?key={{key}}&token={{token}}",
+					"raw": "https://api.trello.com/1/boards/{{boardId}}?key={{TRELLO_KEY}}&token={{TRELLO_TOKEN}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -133,11 +133,11 @@
 					"query": [
 						{
 							"key": "key",
-							"value": "{{key}}"
+							"value": "{{TRELLO_KEY}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
+							"value": "{{TRELLO_TOKEN}}"
 						}
 					]
 				}
@@ -192,7 +192,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://api.trello.com/1/boards/{{boardId}}?key={{key}}&token={{token}}",
+					"raw": "https://api.trello.com/1/boards/{{boardId}}?key={{TRELLO_KEY}}&token={{TRELLO_TOKEN}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -207,11 +207,11 @@
 					"query": [
 						{
 							"key": "key",
-							"value": "{{key}}"
+							"value": "{{TRELLO_KEY}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
+							"value": "{{TRELLO_TOKEN}}"
 						}
 					]
 				}
@@ -241,7 +241,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/{{boardId}}?key={{key}}&token={{token}}",
+					"raw": "https://api.trello.com/1/boards/{{boardId}}?key={{TRELLO_KEY}}&token={{TRELLO_TOKEN}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -256,11 +256,11 @@
 					"query": [
 						{
 							"key": "key",
-							"value": "{{key}}"
+							"value": "{{TRELLO_KEY}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
+							"value": "{{TRELLO_TOKEN}}"
 						}
 					]
 				}
