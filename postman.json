@@ -1,0 +1,27 @@
+{
+	"id": "d30a9112-455f-44ae-a650-c5a0c3ecbed9",
+	"name": "postman",
+	"values": [
+		{
+			"key": "token",
+			"value": "{{TRELLO_TOKEN}}",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "key",
+			"value": "{{TRELLO_KEY}}",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "boardId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-03-04T07:36:45.331Z",
+	"_postman_exported_using": "Postman/11.34.5"
+}
